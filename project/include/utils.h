@@ -3,9 +3,10 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdbool.h>
 
-size_t timer_from(unsigned char from);
-// TODO: Implement `power of` function
-// int custom_pow(int base, int power);
-
-#endif //PROJECT_INCLUDE_UTILS_H_
+size_t timer_from(unsigned int from);
+int custom_pow(int base, int power);
+bool simple_digit(int num);
+int print_digit(int num, int counter);
+#endif  // PROJECT_INCLUDE_UTILS_H_
