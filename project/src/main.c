@@ -46,6 +46,7 @@ int main(int argc, const char** argv) {
                 // int res = custom_pow(base, pow);    // TODO: Implement me
 
                 // printf("%i\n", res);
+                break;
             } else {
                 return ERR_ARGS_COUNT;
             }
@@ -56,9 +57,11 @@ int main(int argc, const char** argv) {
             // TODO: Print to stdout `1` if `num` is prime number and `0` otherwise
             // This function MUST be implemented in
             // a separate C-module (not in `main` or `utils` module)
+            break;
         }
         default: {
             return ERR_WRONG_FLG;
+            break;
         }
     }
 }
